@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise #6</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .bg-1 {
+            background-color: #1abc9c;
+            color: #ffffff;
+        }
+
+        .bg-2 {
+            background-color: gray;
+            color: #ffffff;
+        }
+
+        .bg-3 {
+            background-color: #ffffff;
+            color: gray;
+        }
+
+        .bg-4 {
+            background-color: #2f2f2f;
+            color: #ffffff;
+        }
+
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+
+        }
+
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+
+        }
+
+        .navbar-nav li a:hover {
+            color: #1abc9c !important;
+        }
+
+        body {
+            font: 20px "Montserrant", sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
+
+        p {
+            font-size: 16px
+        }
+
+        .margin {
+            margin-bottom: 45px;
+        }
+    </style>
+</head>
+<!--주석다는 방법-->
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collaspse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Me</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">WHO</a></li>
+                    <li><a href="#">WHAT</a></li>
+                    <li><a href="#">WHERE</a></li>
+                </ul>
+            </div>
+    </nav>
+    <div class="container-fluid bg-1 text-center">
+        <h3>Who Am I?</h3>
+        <img src="bird.jpg" alt="Bird" width="40%" class="img-circle">
+        <h3>I'm an adventurer</h3>
+    </div>
+    <div class="container-fluid bg-2 text-center">
+        <h3>What am I?</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id pulvinar ipsum, in fringilla arcu. Sed
+            hendrerit vitae leo at imperdiet. Pellentesque condimentum varius nibh at tincidunt. Ut ac tortor facilisis,
+            molestie lectus ac, tempor turpis.</p>
+        <a href="#" class="btn btn-default 
+            btn-lg"><span class="glyphicon glyphicon-search"></span>Search</a>
+    </div>
+    <div class="container-fluid bg-3 text-center">
+        <h3>Where To Find Me?</h3>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <img src="bird1.jpg" width="100%">
+            </div>
+            <div class="col-sm-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <img src="bird2.jpg" width="100%">
+            </div>
+            <div class="col-sm-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <img src="bird3.jpg" width="100%">
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid bg-4 text-center">
+        <p>Boostrap Theme Made By <a href="#">Seong-Hun
+                Kim</a></p>
+    </footer>
+</body>
+
+</html>
